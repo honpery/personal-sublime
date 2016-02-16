@@ -1,11 +1,28 @@
+## 注册码
+
+```
+—– BEGIN LICENSE —–
+Michael Barnes
+Single User License
+EA7E-821385
+8A353C41 872A0D5C DF9B2950 AFF6F667
+C458EA6D 8EA3C286 98D1D650 131A97AB
+AA919AEC EF20E143 B361B1E7 4C8B7F04
+B085E65E 2F5F5360 8489D422 FB8FC1AA
+93F6323C FD7F7544 3F39C318 D95E6480
+FCCC7561 8A4A1741 68FA4223 ADCEDE07
+200C25BE DBBC4855 C4CFB774 C5EC138C
+0FEC1CEF D9DCECEC D3A5DAD1 01316C36
+—— END LICENSE ——
+```
+
 ## 插件
+
 `Package Control`：包管理器。
 
 `ConvertToUTF8`：对utf8编码的支持。
 
 `Emmet`：HTML自动补全。
-
-
 
 `SyncedSidebarBg`：同步侧边栏的背景颜色与主题相符。
 
@@ -27,32 +44,34 @@
 
 `BracketHighlighter`：对于括号和标签匹配高亮，外面有个框。
 
-
-
 `JavaScript Completions`：JS快速输入代码段。
 
 `Nodejs`：nodejs代码段。
 
-*************
+
 
 ## 主题
+
 `Theme - Spacegray`
 
 
 
 ## 配色
+
 `Theme - Brogrammer`
 
-*************
+
 ## 编译系统
+
 node
 ```
 {
 	"cmd": ["node", "--harmony", "$file"]
 }
 ```
-**************
-## 常见问题
-### 无法链接package control
-等待右下角的百分比结束，重新打开sublime即可。
 
+## 常见问题
+
+`无法链接package control`：等待右下角的百分比结束，重新打开sublime即可。
+
+`ubuntu下无法输入中文`：[点击查看文章](http://www.jianshu.com/p/bf05fb3a4709)
