@@ -34,6 +34,8 @@ FCCC7561 8A4A1741 68FA4223 ADCEDE07
 
 `Jade`：对Jade模板引擎的高亮支持。
 
+`ejs`：ejs末班引擎的高亮支持，还是比较喜欢这种直观的模板。
+
 `DocBlockr`：注释代码段。
 
 `AutoFileName`：快速完成目录与文件名。
@@ -48,7 +50,11 @@ FCCC7561 8A4A1741 68FA4223 ADCEDE07
 
 `Nodejs`：nodejs代码段。
 
+`HTML-CSS-JS Prettify`：三种文件快速格式化。
 
+`prettify JSON`：格式化JSON。
+
+`SublimeCodeIntel`：多语言代码段。[配置]()
 
 ## 主题
 
@@ -72,6 +78,8 @@ node
 
 ## 常见问题
 
-`无法链接package control`：等待右下角的百分比结束，重新打开sublime即可。
+`无法链接package control`：[点击查看文章](http://my.oschina.net/reeco/blog/340819)
 
 `ubuntu下无法输入中文`：[点击查看文章](http://www.jianshu.com/p/bf05fb3a4709)
+
+`JS变量名不高亮`：[点击查看文章]()
