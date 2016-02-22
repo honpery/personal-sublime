@@ -56,6 +56,8 @@ FCCC7561 8A4A1741 68FA4223 ADCEDE07
 
 `SublimeCodeIntel`：多语言代码段。[配置]()
 
+`Autoprefixer`：CSS后处理器，可以自动添加浏览器前缀。
+
 ## 主题
 
 `Theme - Spacegray`
