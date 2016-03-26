@@ -54,7 +54,7 @@ FCCC7561 8A4A1741 68FA4223 ADCEDE07
 
 `prettify JSON`：格式化JSON。
 
-`SublimeCodeIntel`：多语言代码段。[配置]()
+`SublimeCodeIntel`：多语言代码段。[配置](http://zhangcaiyanbeyond.iteye.com/blog/1876749)
 
 `Autoprefixer`：CSS后处理器，可以自动添加浏览器前缀。
 
