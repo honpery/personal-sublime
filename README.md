@@ -60,6 +60,8 @@ FCCC7561 8A4A1741 68FA4223 ADCEDE07
 
 `cssrem`：自动将px转换成对应的rem。
 
+`JShint Gutter`: 代码检测，[配置](http://jarontai.github.io/blog/2014/11/28/sublime-jshint)
+
 ## 主题
 
 `Theme - Spacegray`
