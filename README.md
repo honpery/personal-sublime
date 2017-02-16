@@ -6,6 +6,7 @@
 ## Contents
 - [Starts](#Starts)
 - [Packages](#Packages)
+- [Utils & Frameworks](#Utils)
 - [Themes](#Themes)
 - [Builds](#Builds)
 - [Plugins](#Plugins)
@@ -18,47 +19,72 @@
 
 - [Sublime Text](https://www.sublimetext.com/)
 - [Package Control](https://packagecontrol.io/) The Sublime Text package manager.
+- [subl command](https://gist.github.com/artero/1236170#installation)
 
 
 ## Packages
 
 > Use package control to [install](https://packagecontrol.io/docs/usage) packages.
 
-- Common
-
-	- [ ] [ConvertToUTF8](https://packagecontrol.io/packages/ConvertToUTF8) For editing and saving files encoded in utf8.
-
-	- asdas
-
-- View
-
+- **View**
 	- [SyncedSidebarBg](https://packagecontrol.io/packages/SyncedSidebarBg) Changes the sidebar theme based on active view's color scheme.
+	- [SideBarEnhancements](https://packagecontrol.io/packages/SideBarEnhancements) Enhancements to Sublime Text sidebar. Files and folders.
+	- [A File Icon](https://packagecontrol.io/packages/A%20File%20Icon) Sublime file-specific icons for improved visual grepping.
 
-- Code
-
+- **Code**
 	- [Trailing​Spaces](https://packagecontrol.io/packages/TrailingSpaces) Highlight trailing spaces and delete them in a flash.
-
 	- [DocBlockr](https://packagecontrol.io/packages/DocBlockr) Simplifies writing DocBlock comments.
-
-- language
+	- [AutoFileName](https://packagecontrol.io/packages/AutoFileName) Sublime Text plugin that autocompletes filenames.
+	- [ConvertToUTF8](https://packagecontrol.io/packages/ConvertToUTF8) For editing and saving files encoded in utf8.
+	- [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter) Bracket and tag highlighter for Sublime Text.
+	- [HTML-CSS-JS Prettify](https://packagecontrol.io/packages/HTML-CSS-JS%20Prettify) HTML, CSS, JavaScript and JSON code formatter for Sublime Text 2 and 3 via node.js.
+	- [SublimeCodeIntel](https://packagecontrol.io/packages/SublimeCodeIntel) Full-featured code intelligence and smart autocomplete engine.
 	
+
+- **language**
 	- HTML
-		
 		- [Emmet](https://packagecontrol.io/packages/Emmet) The essential toolkit for web-developers.
-		
-	- CSS
-	
-	- JavaScript
 
+	- CSS
+		- [Autoprefixer](https://packagecontrol.io/packages/Autoprefixer) Sublime plugin to prefix your CSS.
+		- [LESS](https://packagecontrol.io/packages/LESS) LESS syntax highlighting for Sublime Text. 
+		- [Sass](https://packagecontrol.io/packages/Sass) Sass support for TextMate & Sublime Text (2 & 3).
+
+	- JavaScript
 		- [Babel](https://packagecontrol.io/packages/Babel) Syntax definitions for ES6 JavaScript with React JSX extensions.
 
+	- TypeScript
+		- [Type​Script](https://packagecontrol.io/packages/TypeScript) IO wrapper around TypeScript language services, allowing for easy consumption by editor plugins.
+
+	- Node
+		- [Nodejs](https://packagecontrol.io/packages/Nodejs) Nodejs snippets and bindings.
+		
+	- Markdown
+		- [MarkdownEditing](https://packagecontrol.io/packages/MarkdownEditing) Powerful Markdown package for Sublime Text with better syntax understanding and good color schemes.
+
+	- Go
+		- [GoSublime](https://packagecontrol.io/packages/GoSublime) A Golang plugin collection for SublimeText 3, providing code completion and other IDE-like features.
+		
+
+## Utils & Frameworks
+
+- Git
+	- [Git](https://packagecontrol.io/packages/Git) Plugin for some git integration into sublime text.
+	- [Git​Gutter](https://packagecontrol.io/packages/GitGutter) A Sublime Text 2/3 plugin to see git diff in gutter.
+
+- Terminal
+	- [Terminal](https://packagecontrol.io/packages/Terminal) Launch terminals from the current file or the root project folder.
 
 
 ## Themes
 
+- [Spacegray](https://packagecontrol.io/packages/Theme%20-%20Spacegray)
+- [Brogrammer](https://packagecontrol.io/packages/Theme%20-%20Brogrammer)
+
 
 ## Builds
 
+- [Node](https://www.github.com/honpery/personal-sublime/blob/master/builds/node.sublime-build)
 
 ## Config
 
@@ -80,66 +106,3 @@ FCCC7561 8A4A1741 68FA4223 ADCEDE07
 0FEC1CEF D9DCECEC D3A5DAD1 01316C36
 —— END LICENSE ——
 ```
-
-
-
-
-## 插件
-
-`JavaScriptNext - ES6 Syntax`：主要是对ES6的高亮支持。
-
-`MarkdownEditing`：Markdown写作所见即所得。
-
-`Jade`：对Jade模板引擎的高亮支持。
-
-`ejs`：ejs末班引擎的高亮支持，还是比较喜欢这种直观的模板。
-
-`AutoFileName`：快速完成目录与文件名。
-
-`SideBarEnhancements`：侧边栏添加文件操作菜单。
-
-`BracketHighlighter`：对于括号和标签匹配高亮，外面有个框。
-
-`JavaScript Completions`：JS快速输入代码段。
-
-`Nodejs`：nodejs代码段。
-
-`HTML-CSS-JS Prettify`：三种文件快速格式化。
-
-`prettify JSON`：格式化JSON。
-
-`SublimeCodeIntel`：多语言代码段。[配置](http://zhangcaiyanbeyond.iteye.com/blog/1876749)
-
-`Autoprefixer`：CSS后处理器，可以自动添加浏览器前缀。
-
-`cssrem`：自动将px转换成对应的rem。
-
-`JShint Gutter`: 代码检测，[配置](http://jarontai.github.io/blog/2014/11/28/sublime-jshint)
-
-## 主题
-
-`Theme - Spacegray`
-
-
-
-## 配色
-
-`Theme - Brogrammer`
-
-
-## 编译系统
-
-node
-```
-{
-	"cmd": ["node", "--harmony", "$file"]
-}
-```
-
-## 常见问题
-
-`无法链接package control`：[点击查看文章](http://my.oschina.net/reeco/blog/340819)
-
-`ubuntu下无法输入中文`：[点击查看文章](http://www.jianshu.com/p/bf05fb3a4709)
-
-`JS变量名不高亮`：[点击查看文章]()
