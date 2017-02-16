@@ -1,4 +1,69 @@
-## 注册码
+## Personal-sublime
+
+> Personal sublime packages, builds and config.
+
+
+## Contents
+- [Starts](#Starts)
+- [Packages](#Packages)
+- [Themes](#Themes)
+- [Builds](#Builds)
+- [Plugins](#Plugins)
+- [Config](#Config)
+- [License](#License)
+
+## Starts
+
+> Get start to use sublime.
+
+- [Sublime Text](https://www.sublimetext.com/)
+- [Package Control](https://packagecontrol.io/) The Sublime Text package manager.
+
+
+## Packages
+
+> Use package control to [install](https://packagecontrol.io/docs/usage) packages.
+
+- Common
+
+	- [ ] [ConvertToUTF8](https://packagecontrol.io/packages/ConvertToUTF8) For editing and saving files encoded in utf8.
+
+	- asdas
+
+- View
+
+	- [SyncedSidebarBg](https://packagecontrol.io/packages/SyncedSidebarBg) Changes the sidebar theme based on active view's color scheme.
+
+- Code
+
+	- [Trailing​Spaces](https://packagecontrol.io/packages/TrailingSpaces) Highlight trailing spaces and delete them in a flash.
+
+	- [DocBlockr](https://packagecontrol.io/packages/DocBlockr) Simplifies writing DocBlock comments.
+
+- language
+	
+	- HTML
+		
+		- [Emmet](https://packagecontrol.io/packages/Emmet) The essential toolkit for web-developers.
+		
+	- CSS
+	
+	- JavaScript
+
+		- [Babel](https://packagecontrol.io/packages/Babel) Syntax definitions for ES6 JavaScript with React JSX extensions.
+
+
+
+## Themes
+
+
+## Builds
+
+
+## Config
+
+
+## License
 
 ```
 —– BEGIN LICENSE —–
@@ -16,17 +81,10 @@ FCCC7561 8A4A1741 68FA4223 ADCEDE07
 —— END LICENSE ——
 ```
 
+
+
+
 ## 插件
-
-`Package Control`：包管理器。
-
-`ConvertToUTF8`：对utf8编码的支持。
-
-`Emmet`：HTML自动补全。
-
-`SyncedSidebarBg`：同步侧边栏的背景颜色与主题相符。
-
-`Babel`：主要是针对JSX的高亮支持。
 
 `JavaScriptNext - ES6 Syntax`：主要是对ES6的高亮支持。
 
@@ -36,11 +94,7 @@ FCCC7561 8A4A1741 68FA4223 ADCEDE07
 
 `ejs`：ejs末班引擎的高亮支持，还是比较喜欢这种直观的模板。
 
-`DocBlockr`：注释代码段。
-
 `AutoFileName`：快速完成目录与文件名。
-
-`Trailing Spaces`：高亮尾部空格，可快速消除。
 
 `SideBarEnhancements`：侧边栏添加文件操作菜单。
 
